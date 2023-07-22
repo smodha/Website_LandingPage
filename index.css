@@ -24,8 +24,8 @@ header{
     background-repeat: no-repeat;
     width: 120px;
     height: 96.5px;
-    border-radius: 10px; /* Adjust the value to control the rounding */
-    border: 2px solid #ccc; /* You can set the border width and color */
+    border-radius: 10px; 
+    border: 2px solid #ccc; 
     
     
 }
@@ -60,12 +60,13 @@ header{
 }
 
 .description-left{
-    flex:1.5;
+    flex:1;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
     color:white;
+    
 }
 
 .description-left button{
@@ -75,16 +76,23 @@ header{
     background-color: #3882f6;
     color:white;
     cursor:pointer;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
     width: 20%;
+}
+
+.description-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 .description-right img{
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 0 auto;
+    
 }
 
 
