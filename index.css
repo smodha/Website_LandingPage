@@ -40,13 +40,13 @@ header{
 
 .nav-item{
     display: inline;
-    font-size:18px;
-    margin-right:20px  
+    font-size:18px;  
 }
 
 .nav-item a{
     color:white;
     text-decoration: none;
+    margin-right:10px;
 }
 
 .nav-item a:hover{
@@ -92,7 +92,8 @@ header{
 
 .description-right img{
     max-width: 100%;
-    height: auto;  
+    height: auto; 
+    padding-right: 20px; 
 }
 
 
