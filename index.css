@@ -108,8 +108,9 @@ header{
 .product-section-title{
     text-align: center;
     color : white;
-    margin : 30px 0; 
+    text-decoration: underline;
     font-weight: bold;
+    height : 50px;
 }
 
 .product-section{
