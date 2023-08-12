@@ -161,7 +161,7 @@ header{
 footer{
     background-color: #0c131d;
     color: white;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,6 +173,7 @@ footer{
 
 .contact-us h3 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .contact-us form {
@@ -216,10 +217,17 @@ footer{
     display: flex; 
     flex-direction: column; 
     align-items: flex-start;
+    text-align: center;
 }
 
 .business-hours li {
     margin-bottom: 5px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
   
