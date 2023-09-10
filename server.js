@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
+// Route for products.html
+app.get('/products', (req, res) => {
+  res.sendFile(__dirname + '/products.html');
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
