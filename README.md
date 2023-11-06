@@ -17,3 +17,10 @@ Follow these steps to run the project:
 4. **Start the server**: To launch the website, use the command `node server.js` in your terminal and press Enter.
 
 5. **Access the Website**: Open your web browser and go to `http://localhost:3000` to view the project.
+
+## Future Enhancements
+
+- Implement a backend for dynamic content
+- Create a login system for user accounts
+- Expand car page descriptions with detailed information
+- Improve user experience with interactive features
