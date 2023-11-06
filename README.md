@@ -12,6 +12,8 @@ Follow these steps to run the project:
 
 2. **Navigate to Your Repository Folder**: Use the `cd` command to navigate to the folder where you have cloned this repository.
 
-3. **Run the Command**: Type the following command and press Enter (this will start the server for the project).
+3. **Install Node.js Dependencies**: Type the command `npm install` and press Enter. 
 
-4. **Access the Website**: Open your web browser and go to `http://localhost:3000` to view the project.
+4. **Start the server**: To launch the website, use the command `node server.js` in your terminal and press Enter.
+
+5. **Access the Website**: Open your web browser and go to `http://localhost:3000` to view the project.
