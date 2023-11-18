@@ -6,7 +6,7 @@ shopButton.addEventListener('click', () => {
     .then(response => {
       if (response.ok) {
         // If the response is successful, navigate to the "products.html" page
-        window.location.href = 'products.html';
+        window.location.href = 'products';
       } else {
         console.error('Error loading products page');
       }
